@@ -40,16 +40,16 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 	include\  	--> header files
 	objects\  	--> deposit for object files
 	sources\  	--> source files:
-		- basic_moves.c		--> implementation of the operations swap, push, ..., on stacks
-		- bonus.c			--> helper functions for the bonus part (checker)
-		- checker.c			--> main file for bonus part
-		- checks.c			--> controls of various type
-		- count_moves.c		--> manages basic rotations/rrotations on stacks
-		- finder.c			--> functions to find certain target inside a stack
-		- push_swap.c		--> main file for main part
-		- sort.c			--> higher level sorting functions
-		- stack.c			--> functions to work with stacks
-		- turk.c			--> middle-level functions to sort the stack using the turk algorithm (see #References)
+		- basic_moves.c     --> implementation of the operations swap, push, ..., on stacks
+		- bonus.c           --> helper functions for the bonus part (checker)
+		- checker.c         --> main file for bonus part
+		- checks.c          --> controls of various type
+		- count_moves.c     --> manages basic rotations/rrotations on stacks
+		- finder.c          --> functions to find certain target inside a stack
+		- push_swap.c       --> main file for main part
+		- sort.c            --> higher level sorting functions
+		- stack.c           --> functions to work with stacks
+		- turk.c            --> middle-level functions to sort the stack using the turk algorithm (see #References)
 	libft\    	--> libft directory with auxiliary functions
 
 # Note
