@@ -1,5 +1,5 @@
 # push_swap
-Sorting a stack with basic operations such as pushes, swaps and rotations... in the least amount of moves possible!
+> Sorting a stack with basic operations such as pushes, swaps and rotations... in the least amount of moves possible!
 
 
 # Overview
@@ -32,7 +32,7 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 # Execute
 	- the command `make` creates the executable 'push_swap' for standard part;
 	- the command `make bonus` creates the executable 'checker' for bonus part;
-	- both the executabled take as a parameter the set of integers (no duplicates!) given as a sequence of numbers separated by a space either inside or not double quotes
+	- both the executabled take as a parameter the set of integers (**no duplicates!**) given as a sequence of numbers separated by a space either inside or not double quotes
 	- other make commands: `re`, `clean`, `fclean`
 
 
@@ -57,6 +57,6 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 
 
 # References
-	About the algorithm: https://medium.com/@ayogun/push-swap-c1f5d2d41e97
-    42 project: push_swap (https://cdn.intra.42.fr/pdf/pdf/73983/en.subject.pdf)
+	About the [algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97)
+    42 project: [push_swap](https://cdn.intra.42.fr/pdf/pdf/73983/en.subject.pdf)
     By: Francesco Aru, francesco.aru25@gmail.com, intra42/slack nickname: @faru, Codam, Amsterdam
