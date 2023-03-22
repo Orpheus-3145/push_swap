@@ -6,7 +6,7 @@
 #    By: fra <fra@student.42.fr>                      +#+                      #
 #                                                    +#+                       #
 #    Created: 2022/11/30 15:27:27 by faru          #+#    #+#                  #
-#    Updated: 2023/03/22 03:59:59 by fra           ########   odam.nl          #
+#    Updated: 2023/03/22 05:01:29 by fra           ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -42,7 +42,7 @@ $(LIBFT):
 
 $(MAIN): $(LIBFT) $(OBJ_DIR) $(OBJECTS)
 	@$(CC) $(CFLAGS) $(IFLAGS) $(subst $(BONUS_OBJ),,$(OBJECTS)) $(LFLAGS) -o $(MAIN)
-	@printf "$(GREEN)Created executable $(MAIN)$(RESET)\n"
+	@printf "(push_swap) $(GREEN)Created executable $(MAIN)$(RESET)\n"
 
 $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)
@@ -53,7 +53,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c $(HEADERS)
 
 bonus: $(LIBFT) $(OBJ_DIR) $(OBJECTS)
 	@$(CC) $(CFLAGS) $(IFLAGS) $(subst $(MAIN_OBJ),,$(OBJECTS)) $(LFLAGS) -o $(BONUS)
-	@printf "$(GREEN)Created executable $(BONUS)$(RESET)\n"
+	@printf "(push_swap) $(GREEN)Created executable $(BONUS)$(RESET)\n"
 
 clean:
 	@$(MAKE) clean -C $(LIBFT_DIR) --quiet
@@ -69,7 +69,7 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all, clean, fclean, re, libs
+.PHONY: all, clean, fclean, re
 
 
 

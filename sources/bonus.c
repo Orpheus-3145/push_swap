@@ -6,11 +6,11 @@
 /*   By: fra <fra@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/01/30 00:01:13 by fra           #+#    #+#                 */
-/*   Updated: 2023/02/14 00:47:33 by fra           ########   odam.nl         */
+/*   Updated: 2023/03/22 04:11:54 by fra           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap_bonus.h"
+#include "push_swap.h"
 
 int	check_action(char *action)
 {
@@ -47,9 +47,7 @@ int	store_actions(char **plain_actions, char *input)
 		i = 0;
 		while (input[i])
 		{
-			if (input[i] == '\n')
-				break ;
-			else if (! ft_append_char(input[i++], plain_actions))
+			if (! ft_append_char(input[i++], plain_actions))
 				return (0);
 		}
 		if (! ft_append_char('|', plain_actions))

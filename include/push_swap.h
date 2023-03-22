@@ -6,7 +6,7 @@
 /*   By: fra <fra@student.42.fr>                      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/11/30 15:37:34 by faru          #+#    #+#                 */
-/*   Updated: 2023/02/08 03:41:55 by fra           ########   odam.nl         */
+/*   Updated: 2023/03/22 04:11:24 by fra           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,5 +83,13 @@ int		check_char_num(char *char_num);
 int		check_and_fill_stack(int argc, char **argv, t_stack **stk);
 
 int		check_triple(t_stack *stk);
+
+int		store_actions(char **actions, char *input);
+
+int		check_action(char *action);
+
+void	run_actions(char **actions, t_stack **a);
+
+void	test_actions(t_stack **stk_a);
 
 #endif
