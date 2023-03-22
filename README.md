@@ -13,6 +13,7 @@ The goal is to sort the numbers inside stack A in ascending orders (stack B must
 As mentioned before, only the following operation on stacks are allowed:
 
 | NAME	            | COMMAND |	DESCRIPTION																		    						|
+|-------------------|---------|-------------------------------------------------------------------------------------------------------------|
 | PUSH A            | pa      | puts the element on top of stack B to the top of stack A													|
 | PUSH B            | pb      | puts the element on top of stack A to the top of stack B													|
 | SWAP A            | sa      | swaps the positin of the first two elements of stack A														|
