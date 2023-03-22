@@ -40,7 +40,7 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 	include\  	--> header files
 	objects\  	--> deposit for object files
 	sources\  	--> source files:
-	    - basic_moves.c		--> implementation of the operations swap, push, ..., on stacks
+		- basic_moves.c		--> implementation of the operations swap, push, ..., on stacks
 		- bonus.c			--> helper functions for the bonus part (checker)
 		- checker.c			--> main file for bonus part
 		- checks.c			--> controls of various type
