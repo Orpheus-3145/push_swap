@@ -12,7 +12,6 @@ The goal is to sort the numbers inside stack A in ascending orders (stack B must
 
 As mentioned before, only the following operation on stacks are allowed:
 
- -------------------------------------------------------------------------------------------------------------------------------------------
 | NAME	            | COMMAND |	DESCRIPTION																		    						|
 | PUSH A            | pa      | puts the element on top of stack B to the top of stack A													|
 | PUSH B            | pb      | puts the element on top of stack A to the top of stack B													|
@@ -25,7 +24,6 @@ As mentioned before, only the following operation on stacks are allowed:
 | REVERSE ROTATE A  | rra     | shifts the position of every element of the stack A by 1, descending order (n -> n-1, first became the last)|
 | REVERSE ROTATE B  | rra     | shifts the position of every element of the stack B by 1, descending order (n -> n-1, first became the last)|
 | REVERSE RROTATE	| rrr     | does REVERSE ROTATE A and REVERSE ROTATE B at the same time										     		|
- -------------------------------------------------------------------------------------------------------------------------------------------
 
 Lastly, a checker is available to verify that a sequence of actions actually sorts the stack: it takes the list of instructions and then will prints 'OK' or 'KO' depending on the outcome.
 
