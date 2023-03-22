@@ -39,6 +39,7 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 # Structure
 	include\  	--> header files
 	objects\  	--> deposit for object files
+	libft\    	--> libft directory with auxiliary functions
 	sources\  	--> source files:
 		- basic_moves.c     --> implementation of the operations swap, push, ..., on stacks
 		- bonus.c           --> helper functions for the bonus part (checker)
@@ -50,7 +51,6 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 		- sort.c            --> higher level sorting functions
 		- stack.c           --> functions to work with stacks
 		- turk.c            --> middle-level functions to sort the stack using the turk algorithm (see #References)
-	libft\    	--> libft directory with auxiliary functions
 
 # Note
 	Because of the requirements of this projects, it hasn't been used a 'famous' sorting algorithm, instead, every move is carefully calculated and weighed in a way that, at the end, only the least amount of actions is going to be executed; see #References for more info about the algorith used.
