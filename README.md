@@ -41,7 +41,7 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 	objects\  	--> deposit for object files
 	sources\  	--> source files:
 	    - basic_moves.c		--> implementation of the operations swap, push, ..., on stacks
-	    - bonus.c			--> helper functions for the bonus part (checker)
+		- bonus.c			--> helper functions for the bonus part (checker)
 		- checker.c			--> main file for bonus part
 		- checks.c			--> controls of various type
 		- count_moves.c		--> manages basic rotations/rrotations on stacks
