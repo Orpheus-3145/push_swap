@@ -6,13 +6,12 @@
 /*   By: fra <fra@student.42.fr>                      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/01/21 02:51:37 by fra           #+#    #+#                 */
-/*   Updated: 2023/02/06 20:33:58 by faru          ########   odam.nl         */
+/*   Updated: 2023/03/23 02:48:09 by fra           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-//find the biggest ele in stk lower than to_check (sup)
 t_stack	*find_alpha(t_stack *to_check, t_stack *stk)
 {
 	t_stack	*sup;
@@ -33,7 +32,6 @@ t_stack	*find_alpha(t_stack *to_check, t_stack *stk)
 	return (sup);
 }
 
-//find the smallest ele in stk bigger than to_check (inf)
 t_stack	*find_beta(t_stack *to_check, t_stack *stk)
 {
 	t_stack	*inf;
@@ -85,7 +83,6 @@ t_stack	*find_max(t_stack *stk)
 	return (max);
 }
 
-//find the best node in A that requires less moves to put it in B
 t_stack	*find_best_man(t_stack *stk_a, t_stack *stk_b)
 {
 	t_stack	*best_man;
