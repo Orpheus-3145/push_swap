@@ -30,10 +30,10 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 
 
 # Execute
-	- the command `make` creates the executable 'push_swap' for standard part;
-	- the command `make bonus` creates the executable 'checker' for bonus part;
+	- the command ```make``` creates the executable 'push_swap' for standard part;
+	- the command ```make bonus``` creates the executable 'checker' for bonus part;
 	- both the executabled take as a parameter the set of integers (**no duplicates!**) given as a sequence of numbers separated by a space either inside or not double quotes
-	- other make commands: `re`, `clean`, `fclean`
+	- other make commands: ```re```, ```clean```, ```fclean```
 
 
 # Structure
