@@ -1,5 +1,5 @@
 # push_swap
-> Sorting a stack with basic operations such as pushes, swaps and rotations... in the least amount of moves possible!
+Sorting a stack with basic operations such as pushes, swaps and rotations... in the least amount of moves possible!
 
 
 # Overview
