@@ -4,8 +4,8 @@ Sorting a stack with basic operations such as pushes, swaps and rotations... in 
 
 # Overview
 First, a random amout of integers is given, these number are going to be stored inside a stack called A.
-	- N.B. a stack is a basic data structure that allows to insert (and remove) elements only from the end of it (LIFO)
-	- N.B. there cannot be any duplicate among the numbers 
+- N.B. a stack is a basic data structure that allows to insert (and remove) elements only from the end of it (LIFO)
+- N.B. there cannot be any duplicate among the numbers 
 
 Also an auxiliary empty stack B is provided, it is going to be used as temporary deposit for elements from stack A.
 The goal is to sort the numbers inside stack A in ascending orders (stack B must be empty at the end): the output of the program is going to be the sequence of operations to apply on stack A and B to sort the set of numbers.
