@@ -4,8 +4,8 @@
 
 # Overview
 First, a random amout of integers is given, these number are going to be stored inside a stack called A.
-	N.B. a stack is a basic data structure that allows to insert (and remove) elements only from the end of it (LIFO)
-	N.B. there cannot be any duplicate among the numbers 
+	- N.B. a stack is a basic data structure that allows to insert (and remove) elements only from the end of it (LIFO)
+	- N.B. there cannot be any duplicate among the numbers 
 
 Also an auxiliary empty stack B is provided, it is going to be used as temporary deposit for elements from stack A.
 The goal is to sort the numbers inside stack A in ascending orders (stack B must be empty at the end): the output of the program is going to be the sequence of operations to apply on stack A and B to sort the set of numbers.
@@ -30,10 +30,10 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 
 
 # Execute
-	- the command `make` creates the executable 'push_swap' for standard part;
-	- the command `make bonus` creates the executable 'checker' for bonus part;
-	- both the executabled take as a parameter the set of integers (**no duplicates!**) given as a sequence of numbers separated by a space either inside or not double quotes
-	- other make commands: `re`, `clean`, `fclean`
+- the command `make` creates the executable 'push_swap' for standard part;
+- the command `make bonus` creates the executable 'checker' for bonus part;
+- both the executabled take as a parameter the set of integers (**no duplicates!**) given as a sequence of numbers separated by a space either inside or not double quotes
+- other make commands: `re`, `clean`, `fclean`
 
 
 # Structure
@@ -53,10 +53,10 @@ Lastly, a checker is available to verify that a sequence of actions actually sor
 		- turk.c            --> middle-level functions to sort the stack using the turk algorithm (see #References)
 
 # Note
-	Because of the requirements of this projects, it hasn't been used a 'famous' sorting algorithm, instead, every move is carefully calculated and weighed in a way that, at the end, only the least amount of actions is going to be executed; see #References for more info about the algorith used.
+Because of the requirements of this projects, it hasn't been used a 'famous' sorting algorithm, instead, every move is carefully calculated and weighed in a way that, at the end, only the least amount of actions is going to be executed; see #References for more info about the algorith used.
 
 
 # References
-	About the [algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97)
-    42 project: [push_swap](https://cdn.intra.42.fr/pdf/pdf/73983/en.subject.pdf)
-    By: Francesco Aru, francesco.aru25@gmail.com, intra42/slack nickname: @faru, Codam, Amsterdam
+About the [algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97)
+42 project: [push_swap](https://cdn.intra.42.fr/pdf/pdf/73983/en.subject.pdf)
+By: Francesco Aru, francesco.aru25@gmail.com, intra42/slack nickname: @faru, Codam, Amsterdam
