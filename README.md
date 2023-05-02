@@ -59,4 +59,4 @@ Because of the requirements of this projects, it hasn't been used a 'famous' sor
 # References
 - About the [algorithm](https://medium.com/@ayogun/push-swap-c1f5d2d41e97)
 - 42 project: [push_swap](https://cdn.intra.42.fr/pdf/pdf/73983/en.subject.pdf)
-- By: Francesco Aru, francesco.aru25@gmail.com, intra42/slack nickname: @faru, Codam, Amsterdam
+- By: Francesco Aru ([GithHub](https://github.com/Orpheus-3145)), francesco.aru25@gmail.com, intra42/slack nickname: @faru, Codam, Amsterdam
